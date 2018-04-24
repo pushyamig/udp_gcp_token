@@ -15,4 +15,4 @@ FROM google/cloud-sdk
 WORKDIR /usr/src/app
 # copies the app source code to the directory in container
 COPY . /usr/src/app
-CMD ["/bin/bash","/usr/src/app/token.sh"]
+CMD ["/bin/bash"]
