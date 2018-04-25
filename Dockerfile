@@ -1,7 +1,7 @@
 # this is getting the latest under 3.6 version
 FROM google/cloud-sdk
 RUN apt-get update \
- && apt-get install vim
+ && apt-get install -y vim
 # Setting the default directory in container
 WORKDIR /usr/src/app
 # copies the app source code to the directory in container
